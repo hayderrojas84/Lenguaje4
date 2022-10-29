@@ -1,0 +1,170 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+h1 {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 60px;
+  padding: 5px 10px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+}
+
+h1.elegantshadow {
+  color: #000000;
+  background-color: #dac5c5;
+  letter-spacing: 0.15rem;
+  text-shadow: 1px -1px 0 #767676, -1px 2px 1px #737272, -2px 4px 1px #767474, -3px 6px 1px #787777, -4px 8px 1px #7b7a7a, -5px 10px 1px #7f7d7d, -6px 12px 1px #828181, -7px 14px 1px #e9e0e0, -8px 16px 1px #ece6df;
+}
+
+.App-header {
+  background-color: hwb(0 100% 0%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 1vmin);
+  color: rgb(250, 250, 250);
+}
+.imagen {
+  text-align: right;
+}
+
+.textoI {
+  grid-template-columns: repeat(auto-fill);
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 1,2rem;
+  justify-content: left;
+}
+
+.textop {
+  color: rgb(255, 31, 31);
+  text-align: center;
+  font-size: 50px;
+}
+
+.texto2 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 30px;
+}
+
+.texto3{
+  color: rgb(253, 135, 0);
+  text-align: center;
+  font-size: 40px;
+}
+
+.h1 {
+  color: hsla(0, 0%, 0%, 0.9);
+  text-align: center;
+  animation: move linear 5000ms infinite;
+  font-size: 50px;
+  font-style: italic;
+}
+
+@keyframes move {
+  0% {
+    text-shadow: 4px -4px 0 hsla(0, 100%, 50%, 1),
+      3px -3px 0 hsla(0, 100%, 50%, 1), 2px -2px 0 hsla(0, 100%, 50%, 1),
+      1px -1px 0 hsla(0, 100%, 50%, 1), -4px 4px 0 hsla(180, 100%, 50%, 1),
+      -3px 3px 0 hsla(180, 100%, 50%, 1), -2px 2px 0 hsla(180, 100%, 50%, 1),
+      -1px 1px 0 hsla(180, 100%, 50%, 1);
+  }
+  25% {
+    text-shadow: -4px -4px 0 hsla(180, 100%, 50%, 1),
+      -3px -3px 0 hsla(180, 100%, 50%, 1), -2px -2px 0 hsla(180, 100%, 50%, 1),
+      -1px -1px 0 hsla(180, 100%, 50%, 1), 4px 4px 0 hsla(0, 100%, 50%, 1),
+      3px 3px 0 hsla(0, 100%, 50%, 1), 2px 2px 0 hsla(0, 100%, 50%, 1),
+      1px 1px 0 hsla(0, 100%, 50%, 1);
+  }
+  50% {
+    text-shadow: -4px 4px 0 hsla(0, 100%, 50%, 1),
+      -3px 3px 0 hsla(0, 100%, 50%, 1), -2px 2px 0 hsla(0, 100%, 50%, 1),
+      -1px 1px 0 hsla(0, 100%, 50%, 1), 4px -4px 0 hsla(180, 100%, 50%, 1),
+      3px -3px 0 hsla(180, 100%, 50%, 1), 2px -2px 0 hsla(180, 100%, 50%, 1),
+      1px -1px 0 hsla(180, 100%, 50%, 1);
+  }
+  75% {
+    text-shadow: 4px 4px 0 hsla(180, 100%, 50%, 1),
+      3px 3px 0 hsla(180, 100%, 50%, 1), 2px 2px 0 hsla(180, 100%, 50%, 1),
+      1px 1px 0 hsla(180, 100%, 50%, 1), -4px -4px 0 hsla(0, 100%, 50%, 1),
+      -3px -3px 0 hsla(0, 100%, 50%, 1), -2px -2px 0 hsla(0, 100%, 50%, 1),
+      -1px -1px 0 hsla(0, 100%, 50%, 1);
+  }
+  100% {
+    text-shadow: 4px -4px 0 hsla(0, 100%, 50%, 1),
+      3px -3px 0 hsla(0, 100%, 50%, 1), 2px -2px 0 hsla(0, 100%, 50%, 1),
+      1px -1px 0 hsla(0, 100%, 50%, 1), -4px 4px 0 hsla(180, 100%, 50%, 1),
+      -3px 3px 0 hsla(180, 100%, 50%, 1), -2px 2px 0 hsla(180, 100%, 50%, 1),
+      -1px 1px 0 hsla(180, 100%, 50%, 1);
+  }
+}
+
+.header {
+  background-color: rgba(0, 238, 255, 0.819);
+  text-align: center;
+  color: black;
+}
+
+.menut {
+  background-color: rgb(0, 0, 0);
+  padding: 0.15rem;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+
+}
+
+.imagen_p {
+  position: center;
+}
+.imagenh {
+  text-align: center;
+  background-clip: border-box;
+  color: aliceblue;
+}
+
+.imgpast {
+  text-align: center;
+  backface-visibility: hidden;
+}
+.section {
+  padding: 60px 4;
+  width: 90%;
+  max-width: 1000%;
+  margin: auto;
+  overflow: hidden;
+}
+.imagenes_p {
+  
+  padding: 5px 10px;
+  outline: none;
+  text-align: center;
+}
+
+.App-link {
+  color: #ff0000;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
