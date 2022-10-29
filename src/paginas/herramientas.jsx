@@ -30,21 +30,87 @@ const Herramientas = () => {
       <h1 className="texto3">Herramientas</h1>
 
       <div className="">
-        <a onClick={alerta}> <img src={martillo} height="200px" width="200px" HSPACE="5%"/></a>
-        <a onClick={alerta}> <img src={destornillador} height="200px" width="200px" HSPACE="15%" VSPACE="10px" />  </a>
-        <a onClick={alerta}> <img src={alicate} height="200px" width="200px" HSPACE="5%"/>  </a>
+        <img
+          alt="imagen"
+          onClick={alerta}
+          src={martillo}
+          height="200px"
+          width="200px"
+          HSPACE="5%"
+        />
+        <img
+          alt="imagen"
+          onClick={alerta}
+          src={destornillador}
+          height="200px"
+          width="200px"
+          HSPACE="15%"
+          VSPACE="10px"
+        />
+        <img
+          alt="imagen"
+          onClick={alerta}
+          src={alicate}
+          height="200px"
+          width="200px"
+          HSPACE="5%"
+        />
       </div>
 
       <div className="">
-        <a onClick={alerta}><img src={almadana} height="200px" width="200px" HSPACE="5%" /> </a>
-        <a onClick={alerta}><img src={serrucho} height="200px" width="200px" HSPACE="15%" VSPACE="10px" /></a>
-        <a onClick={alerta}> <img src={hombre_solo} height="200px" width="200px" HSPACE="5%" />  </a>
+        <img
+          alt="imagen"
+          onClick={alerta}
+          src={almadana}
+          height="200px"
+          width="200px"
+          HSPACE="5%"
+        />
+        <img
+          alt="imagen"
+          onClick={alerta}
+          src={serrucho}
+          height="200px"
+          width="200px"
+          HSPACE="15%"
+          VSPACE="10px"
+        />
+        <img
+          alt="imagen"
+          onClick={alerta}
+          src={hombre_solo}
+          height="200px"
+          width="200px"
+          HSPACE="5%"
+        />
       </div>
 
       <div className="">
-        <a onClick={alerta}><img src={escuadra} height="200px" width="200px" HSPACE="5%" /> </a>
-        <a onClick={alerta}> <img src={segueta} height="200px" width="200px" HSPACE="15%" VSPACE="10px" /> </a>
-        <a onClick={alerta}> <img src={pinza} height="200px" width="200px" HSPACE="5%" />  </a>
+        <img
+          alt="imagen"
+          onClick={alerta}
+          src={escuadra}
+          height="200px"
+          width="200px"
+          HSPACE="5%"
+        />
+        <img
+          alt="imagen"
+          onClick={alerta}
+          src={segueta}
+          height="200px"
+          width="200px"
+          HSPACE="15%"
+          VSPACE="10px"
+        />
+        <img
+          alt="imagen"
+          onClick={alerta}
+          src={pinza}
+          height="200px"
+          width="200px"
+          HSPACE="5%"
+        />
       </div>
     </>
   );

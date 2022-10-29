@@ -12,13 +12,13 @@ const Redes = () => {
 
         <h1 className="texto3" > Mis Redes Sociales </h1>
 
-        <a href="https://www.facebook.com/haider.rojas.9"> <img src={facebook} height="200px" width="200px"/> </a>  &nbsp; &nbsp; &nbsp; &nbsp; 
+        <a href="https://www.facebook.com/haider.rojas.9"> <img alt="Imagen" src={facebook} height="200px" width="200px"/> </a>  &nbsp; &nbsp; &nbsp; &nbsp; 
         
-        <a href="https://instagram.com/haiderrojas84?igshid=YmMyMTA2M2Y="><img src={instagram} height="200px" width="200px"/> </a> &nbsp; &nbsp; &nbsp; &nbsp; 
+        <a href="https://instagram.com/haiderrojas84?igshid=YmMyMTA2M2Y="><img alt="Imagen" src={instagram} height="200px" width="200px"/> </a> &nbsp; &nbsp; &nbsp; &nbsp; 
 
-        <a href="https://wa.me/573202502483"><img src={whatsapp} height="200px" width="200px" /> </a> &nbsp; &nbsp; &nbsp; &nbsp;
+        <a href="https://wa.me/573202502483"><img alt="Imagen" src={whatsapp} height="200px" width="200px" /> </a> &nbsp; &nbsp; &nbsp; &nbsp;
 
-        <a href="https://twitter.com/Hayder09993466?t=yYN_9v-RZLFdS9ZBnmwipAs=09"><img src={twitter} height="200px" width="200px" /> </a>
+        <a href="https://twitter.com/Hayder09993466?t=yYN_9v-RZLFdS9ZBnmwipAs=09"><img alt="Imagen" src={twitter} height="200px" width="200px" /> </a>
 
     </div>
     );
